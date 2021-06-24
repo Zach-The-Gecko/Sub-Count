@@ -14,7 +14,7 @@ const timer = () => {
       .then((json) => json.json())
       .then((res) => {
         subcount.innerHTML = res.items[0].statistics.subscriberCount;
-      });
+      }).catch(() => subcount.innerHTML = "undefined")
     timer();
   }, 8000);
 };
