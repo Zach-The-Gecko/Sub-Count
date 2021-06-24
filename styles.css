@@ -15,15 +15,21 @@
       format("svg");
 }
 
+.subCountContainer {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
 .subCount {
-  font-size: 3vw;
+  font-size: 7vw;
   font-family: "Minecraft";
 }
 
-.red {
-  color: #d60000;
+.green {
+  color: #2f8a23;
 }
 
 .white {
-  color: black;
+  color: #e7e7e7;
 }
