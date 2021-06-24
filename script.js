@@ -1,6 +1,6 @@
 const subcount = document.getElementById("number");
 
-const channelId = "UCuAj31T2G04FZkCR-6carEA";
+const channelId = "BLANK_ID";
 
 //gamerboy 80 UCuAj31T2G04FZkCR-6carEA
 
@@ -14,7 +14,8 @@ const timer = () => {
       .then((json) => json.json())
       .then((res) => {
         subcount.innerHTML = res.items[0].statistics.subscriberCount;
-      }).catch(() => subcount.innerHTML = "undefined")
+      })
+      .catch(() => (subcount.innerHTML = "undefined"));
     timer();
   }, 8000);
 };
