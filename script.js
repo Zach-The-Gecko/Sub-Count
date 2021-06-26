@@ -1,6 +1,6 @@
 const subcount = document.getElementById("number");
 
-const channelId = "UCuAj31T2G04FZkCR-6carEA";
+const channelId = "UCLPxXrK_Wkmlq301zOUJ-2g";
 
 //gamerboy 80 UCuAj31T2G04FZkCR-6carEA
 
