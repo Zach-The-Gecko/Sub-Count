@@ -17,7 +17,7 @@ const timer = () => {
       })
       .catch(() => (subcount.innerHTML = "undefined"));
     timer();
-  }, 8000);
+  }, 2000);
 };
 
 timer();
