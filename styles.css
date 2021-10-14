@@ -30,13 +30,13 @@ body {
   height: 100%;
 }
 
-.subCountContainer {
+.subAndLikeCountContainer {
   display: flex;
   align-items: center;
   text-align: center;
 }
 
-.subCount {
+.text {
   font-size: 7vw;
   font-family: "Minecraft";
 }
